@@ -1,3 +1,83 @@
+:root {
+  --bg: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+  --btn: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+  --fonts: "Gilroy";
+  --h3: 32px;
+  --color: #ffffff;
+  --color2: #cfcfcf;
+  --border: #618967;
+  --card: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+  --radios: 0.625rem;
+}
 
+body {
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  background: var(--bg);
+  font-family: var(--fonts);
+  color: var(--color);
+}
+
+section .h3 {
+  margin-left: 5.6875rem;
+  margin-bottom: 60px;
+  color: var(--color);
+  font-size: var(--h3);
+  font-family: var(--fonts);
+  line-height: 2.4375rem;
+  padding-left: 1.1875rem;
+  border-left: var(--border) 0.25rem solid;
+}
+section .menu {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+section .card {
+  background: var(--card);
+  border-radius: var(--radios);
+}
+section .img {
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: var(--border);
+}
+section .card-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 1.25rem;
+}
+section .card-name {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color);
+}
+section .h5 {
+  font-size: 22px;
+}
+section .prace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color);
+}
+section .p {
+  color: var(--color2);
+}
+section .btn {
+  background: var(--btn);
+  color: var(--color);
+  border: none;
+  border-radius: var(--radios);
+  padding: 15px 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
