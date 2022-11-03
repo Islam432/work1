@@ -14,9 +14,8 @@
   .nav {
     padding: 10px 0px;
     display: flex;
-    background: #403c3b;
     align-items: center;
-      border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #5c5a5a;
   }
   .logo {
     cursor: pointer;
@@ -80,11 +79,11 @@
   .btn {
     padding: 18px 40px 18px 40px;
     cursor: pointer;
-    margin-left: 300px;
     font-size: 18px;
     background-image: linear-gradient(#618967, #72a479);
     border-radius: 10px;
     display: flex;
+    margin-left:100px ;
     align-items: center;
     justify-content: center;
     font-family: "Glory";
@@ -117,10 +116,9 @@
       margin-bottom: 0;
     color: #cfcfcf;
     display: flex;
-    border-bottom: 3px solid #464242;
+    border-bottom: 1px solid #5c5a5a;
     justify-content: center;
     gap: 60px;
-    background: #403d3c;
   }
   .nav-link {
     display: flex;
@@ -130,6 +128,7 @@
     font-family: "Glory";
     margin: 30px 0px;
     font-size: 18px;
+    transition: 0.7s;
     font-weight: 400;
   
     color: #cfcfcf;
@@ -141,11 +140,13 @@
   }
   
   .center{
-      margin-top: 0;
       max-width: 1440px;
       margin: auto;
       padding-left: 90px;
       background: #44403F;
+      margin-top:50px ;
+      border-bottom: 1px solid #5c5a5a;
+
   }
   .h1{
       border-left: 5px solid #618967;
@@ -157,13 +158,21 @@
       margin: auto;
   }
   .card{
+    overflow-x: auto;
       display: flex;
       gap: 20px;
       justify-content: center;
       padding-top: 20px;
       background: #44403F;
+      padding-top: 50px;
+
   
   }
+  .text{
+    padding-right: 40px;
+
+    border-right: 1px solid #5c5a5a;
+}
   .card__items{
       max-width: 440px;
       background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -172,7 +181,7 @@
       color: #fff;
       padding-left: 25px ;
   }
-  .text{
+  .text-p{
       color:#A6A7AB;
       padding-left: 25px ;
   
@@ -184,11 +193,17 @@
       padding-bottom: 14px;
       font-size: 14px;
   }
-  .card-2{
-      display: flex;
-      gap: 20px;
-      margin-top: 50px;
-      justify-content: center;
-      padding-top: 20px;
-      background: #44403F;    
-  }
+
+
+.btn-icon{
+    background:#44403F ;
+    border: #5c5a5a;
+    color: #fff;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+}
+.icon-person{
+padding-left: 40px;
+}
