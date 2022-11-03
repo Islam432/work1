@@ -22,6 +22,31 @@ main {
   border-top: var(--color2) solid 1px;
   border-bottom: var(--color2) solid 1px;
 }
+.comeback {
+  padding-left: 113px;
+  margin: 0;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    background: var(--btn);
+    border-radius: 50%;
+    border: none;
+    color: var(--color);
+    font-size: 20px;
+  }
+  .h5 {
+    color: var(--color);
+    font-size: 20px;
+  }
+}
 .first {
   margin: 0 auto;
   max-width: 1210px;
@@ -138,8 +163,10 @@ section {
     justify-content: space-between;
     align-items: center;
     color: var(--color);
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     margin-top: 15px;
+    padding: 10px;
+    margin-bottom: auto;
   }
   .p {
     color: var(--color2);
@@ -153,5 +180,60 @@ section {
     border-radius: var(--radios);
     padding: 15px 20px;
     align-items: center;
+  }
+}
+
+.map {
+  padding: 100px;
+  background-image: url(../img/Mask\ Group.png);
+  .contact {
+    background: var(--bg);
+    border-radius: var(--radios);
+    padding: 25px 45px;
+    display: flex;
+    flex-direction: column;
+    max-width: 526px;
+
+    .h3 {
+      padding-bottom: 25px;
+      border-bottom: var(--color2) 1px solid;
+      color: var(--color);
+      font-size: 30px;
+    }
+    .p {
+      margin: 0;
+      color: var(--color2);
+    }
+    .p-map {
+      margin: 0;
+
+      color: var(--color);
+      padding-top: 8px;
+      padding-bottom: 20px;
+    }
+    .p-map2 {
+      margin: 0;
+      color: var(--color);
+      padding-bottom: 50px;
+      padding-top: 8px;
+      border-bottom: var(--color2) 1px solid;
+    }
+    .map-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--color);
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+
+    .btn {
+      background: var(--btn);
+      color: var(--color);
+      border: none;
+      border-radius: var(--radios);
+      padding: 15px 20px;
+      align-items: center;
+    }
   }
 }
