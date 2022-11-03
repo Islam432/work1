@@ -57,12 +57,25 @@ main {
   background: var(--card);
   border-radius: var(--radios);
   margin-bottom: 60px;
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    text-align: center;
+    gap: 20px;
+    @media (max-width: 720px) {
+      max-width: 0px;
+    }
+  }
 
   .first__info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 40px 0 25px 0;
+    @media (max-width: 992px) {
+      align-items: center;
+    }
   }
   .p {
     color: var(--color2);
@@ -71,6 +84,9 @@ main {
   }
   .p-113 {
     padding-bottom: 113px;
+    @media (max-width: 992px) {
+      padding-bottom: 50px;
+    }
   }
   .h5 {
     font-size: 22px;
@@ -128,13 +144,31 @@ section {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 20px;
+    @media (min-width: 1380px) {
+      display: flex;
+      justify-content: space-evenly;
+    }
   }
-
+  .card-del3 {
+    @media (max-width: 1380px) {
+      display: none;
+    }
+  }
+  .card-del2 {
+    @media (max-width: 1040px) {
+      display: none;
+    }
+  }
+  .card-del {
+    @media (max-width: 720px) {
+      display: none;
+    }
+  }
   .card {
     background: var(--card);
     border-radius: var(--radios);
   }
-  .img {
+  .ca .img {
     object-fit: cover;
     overflow: hidden;
     border-radius: var(--border);
