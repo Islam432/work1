@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
   padding: 0px;
   margin: 0px;
-  background: #1e1e1e;
+  background:  #44403F;
 }
 .bg {
   background: #403c3b;
@@ -20,6 +20,7 @@ body {
   display: flex;
   background: #403c3b;
   align-items: center;
+    border-bottom: 1px solid #fff;
 }
 .logo {
   cursor: pointer;
@@ -123,6 +124,7 @@ body {
 }
 
 .nav2 {
+    margin-bottom: 0;
   color: #cfcfcf;
   display: flex;
   border-bottom: 3px solid #464242;
@@ -147,4 +149,49 @@ body {
   border-bottom: 3px solid #618967;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 4px #618967;
+}
+
+.center{
+    margin-top: 0;
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 90px;
+    background: #44403F;
+}
+.h1{
+    border-left: 5px solid #618967;
+    color: white;
+    padding-left: 19px;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    background: #44403F;
+
+}
+.card__items{
+    max-width: 440px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;}
+.title{
+    color: #fff;
+    padding-left: 25px ;
+}
+.text{
+    color:#A6A7AB;
+    padding-left: 25px ;
+
+}
+.date{
+    color:  #6FA076;
+    width: 392px;
+    padding: 5px 25px 19px 25px ;
+    padding-bottom: 14px;
+    font-size: 14px;
 }
