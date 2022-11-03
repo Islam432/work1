@@ -16,6 +16,7 @@ body {
   display: flex;
   background: #403c3b;
   align-items: center;
+    border-bottom: 2px solid white;
 }
 .logo {
   cursor: pointer;
@@ -136,4 +137,10 @@ body {
   border-radius: 10px;
   transition: 0.7s;
   box-shadow: 0px 0px 10px 4px #618967;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: auto;
 }
