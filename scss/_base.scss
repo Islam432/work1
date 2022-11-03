@@ -125,9 +125,9 @@ body {
   margin-bottom: 0;
   color: #cfcfcf;
   display: flex;
-  border-bottom: 3px solid #464242;
+  border-bottom: 4px solid #464242;
   justify-content: center;
-  gap: 60px;
+  gap: 80px;
   background: #403d3c;
 }
 .nav-link {
@@ -137,7 +137,7 @@ body {
   text-decoration: none;
   font-family: "Glory";
   margin: 30px 0px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   color: #cfcfcf;
   transition: 0.6s;
@@ -146,5 +146,88 @@ body {
 .nav-link:hover {
   border-bottom: 3px solid #618967;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px #618967;
+}
+.section {
+  padding: 15px 0px;
+  margin-bottom: 100px;
+}
+.t2 {
+  display: flex;
+  font-size: 32px;
+  align-items: center;
+  color: white;
+  margin-left: 160px;
+  border-left: 6px solid #618967;
+  padding: 15px 0px 14px 40px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card-box {
+  border-radius: 10px;
+  background-image: linear-gradient(#494544, #504b4a);
+  max-width: 400px;
+}
+.img1 {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.post {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.r1 {
+  margin: 0;
+  color: white;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+.r2 {
+  color: rgb(162, 161, 161);
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+.r3 {
+  color: white;
+  font-weight: 500;
+}
+
+.p {
+  color: #a39e9e;
+  padding: 0 20px;
+  margin-top: 0;
+}
+.card-button {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-btn {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+  background-image: linear-gradient(#618967 0%, #72a479 100%);
+}
+.card-btn:hover {
+  color: #403c3b;
+  background: #cfcfcf;
   box-shadow: 0px 0px 10px 4px #618967;
 }

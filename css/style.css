@@ -1,17 +1,286 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 4 | @import "./card2";
- *   |         ^^^^^^^^^
- *   '
- *   scss\style.scss 4:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import \"./card2\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\style.scss 4:9  root stylesheet";
+/* glory-regular - latin */
+@font-face {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ww/glory-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/ww/glory-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ww/glory-v9-latin-regular.woff2") format("woff2"), url("../fonts/ww/glory-v9-latin-regular.woff") format("woff"), url("../fonts/ww/glory-v9-latin-regular.ttf") format("truetype"), url("../fonts/ww/glory-v9-latin-regular.svg#Glory") format("svg"); /* Legacy iOS */
 }
+/* glory-500 - latin */
+@font-face {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ww/glory-v9-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/ww/glory-v9-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/ww/glory-v9-latin-500.woff2") format("woff2"), url("../fonts/ww/glory-v9-latin-500.woff") format("woff"), url("../fonts/ww/glory-v9-latin-500.ttf") format("truetype"), url("../fonts/ww/glory-v9-latin-500.svg#Glory") format("svg"); /* Legacy iOS */
+}
+/* glory-700 - latin */
+@font-face {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ww/glory-v9-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/ww/glory-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/ww/glory-v9-latin-700.woff2") format("woff2"), url("../fonts/ww/glory-v9-latin-700.woff") format("woff"), url("../fonts/ww/glory-v9-latin-700.ttf") format("truetype"), url("../fonts/ww/glory-v9-latin-700.svg#Glory") format("svg"); /* Legacy iOS */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background: #44403f;
+}
+
+.bg {
+  background: #403c3b;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.nav {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: flex;
+  background: #403c3b;
+  align-items: center;
+  border-bottom: 3px solid #464242;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: 50px;
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  color: white;
+}
+
+.input-nav {
+  background: #504b4a;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px 10px 15px 7px;
+}
+
+.input1 {
+  font-weight: 700;
+  border: none;
+  background: none;
+  color: #cfcfcf;
+}
+
+.icon-img {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-img1 {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-left: 180px;
+}
+
+.nav-call {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(#618967, #72a479);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.t1 {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text {
+  padding-left: 10px;
+  color: #cfcfcf;
+  font-family: "Glory";
+  font-weight: 400;
+}
+
+.img {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.btn {
+  margin-left: 220px;
+  padding: 18px 40px 18px 40px;
+  cursor: pointer;
+  font-size: 18px;
+  background-image: linear-gradient(#618967, #72a479);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Glory";
+  border: none;
+  font-weight: 500;
+  color: white;
+}
+
+.btn:hover {
+  transition: 0.7s;
+  color: #000000;
+  background: #cfcfcf;
+  box-shadow: 0px 0px 10px 4px #618967;
+}
+
+.btnn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-left: 10px;
+  background: white;
+  overflow: hidden;
+  width: 25px;
+  font-weight: 700;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.nav2 {
+  margin-bottom: 0;
+  color: #cfcfcf;
+  display: flex;
+  border-bottom: 4px solid #464242;
+  justify-content: center;
+  gap: 80px;
+  background: #403d3c;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Glory";
+  margin: 30px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #cfcfcf;
+  transition: 0.6s;
+  border-bottom: 3px solid rgba(97, 137, 103, 0);
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #618967;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px #618967;
+}
+
+.section {
+  padding: 15px 0px;
+  margin-bottom: 100px;
+}
+
+.t2 {
+  display: flex;
+  font-size: 32px;
+  align-items: center;
+  color: white;
+  margin-left: 160px;
+  border-left: 6px solid #618967;
+  padding: 15px 0px 14px 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-box {
+  border-radius: 10px;
+  background-image: linear-gradient(#494544, #504b4a);
+  max-width: 400px;
+}
+
+.img1 {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.post {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.r1 {
+  margin: 0;
+  color: white;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.r2 {
+  color: rgb(162, 161, 161);
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.r3 {
+  color: white;
+  font-weight: 500;
+}
+
+.p {
+  color: #a39e9e;
+  padding: 0 20px;
+  margin-top: 0;
+}
+
+.card-button {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-btn {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+  background-image: linear-gradient(#618967 0%, #72a479 100%);
+}
+
+.card-btn:hover {
+  color: #403c3b;
+  background: #cfcfcf;
+  box-shadow: 0px 0px 10px 4px #618967;
+}
+
+/*# sourceMappingURL=style.css.map */
