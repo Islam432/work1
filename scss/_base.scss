@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
   padding: 0px;
   margin: 0px;
-  background:  #44403F;
+  background: #44403f;
 }
 .bg {
   background: #403c3b;
@@ -14,23 +14,22 @@ body {
   margin: 0 auto;
 }
 .nav {
-  max-width: 1440px;
+  max-width: 1270px;
   margin: 0 auto;
   padding: 10px 0px;
   display: flex;
   background: #403c3b;
   align-items: center;
-    border-bottom: 1px solid #fff;
+  border-bottom: 3px solid #464242;
 }
 .logo {
   cursor: pointer;
-  margin-left: 70px;
+  margin-right: 50px;
   font-family: "Glory";
   font-style: normal;
   font-weight: 700;
   font-size: 33px;
   color: white;
-  margin-right: 70px;
 }
 .input-nav {
   background: #504b4a;
@@ -58,7 +57,6 @@ body {
   margin-left: 180px;
 }
 .nav-call {
-  margin-right: 10px;
   margin-left: 30px;
   display: flex;
   align-items: center;
@@ -66,7 +64,6 @@ body {
   text-align: center;
   width: 40px;
   height: 40px;
-  border: white;
   background-image: linear-gradient(#618967, #72a479);
   border-radius: 50%;
   overflow: hidden;
@@ -77,6 +74,7 @@ body {
   cursor: pointer;
 }
 .text {
+  padding-left: 10px;
   color: #cfcfcf;
   font-family: "Glory";
   font-weight: 400;
@@ -88,9 +86,9 @@ body {
   object-fit: cover;
 }
 .btn {
+  margin-left: 220px;
   padding: 18px 40px 18px 40px;
   cursor: pointer;
-  margin-left: 300px;
   font-size: 18px;
   background-image: linear-gradient(#618967, #72a479);
   border-radius: 10px;
@@ -124,7 +122,7 @@ body {
 }
 
 .nav2 {
-    margin-bottom: 0;
+  margin-bottom: 0;
   color: #cfcfcf;
   display: flex;
   border-bottom: 3px solid #464242;
@@ -149,49 +147,4 @@ body {
   border-bottom: 3px solid #618967;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 4px #618967;
-}
-
-.center{
-    margin-top: 0;
-    max-width: 1440px;
-    margin: auto;
-    padding-left: 90px;
-    background: #44403F;
-}
-.h1{
-    border-left: 5px solid #618967;
-    color: white;
-    padding-left: 19px;
-}
-.container{
-    max-width: 1440px;
-    margin: auto;
-}
-.card{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding-top: 20px;
-    background: #44403F;
-
-}
-.card__items{
-    max-width: 440px;
-    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
-    border-radius: 10px;}
-.title{
-    color: #fff;
-    padding-left: 25px ;
-}
-.text{
-    color:#A6A7AB;
-    padding-left: 25px ;
-
-}
-.date{
-    color:  #6FA076;
-    width: 392px;
-    padding: 5px 25px 19px 25px ;
-    padding-bottom: 14px;
-    font-size: 14px;
 }
