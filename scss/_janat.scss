@@ -211,8 +211,60 @@ padding-left: 40px;
 .nav__bottom{
   display: flex;
   background: #44403F;
+  margin-bottom: 50px;
 }
 
-.btn__arrow{
-  padding: 20px;
+.arrow{
+  background: #d0c9c9;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-top: 51px;
+  margin-left: 40px;
+  border: 1px solid #000;
+}
+.config{
+  margin-left: 55px;
+  color: #fff;
+}
+.user{
+  font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+.ooo{
+  font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+
+}
+.end{
+  
+  cursor: pointer;
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  color: white;
+}
+.link{
+  margin-top: 86px;
+  margin-left: 86px;
+  color: #fff;
+  font-weight: 500;
+font-size: 20px;
+padding-left: 20px;
+
+line-height: 24px;
+}
+.nav__link_bot{
+  text-decoration: none;
+  color: #fff;
+  padding-left: 20px;
+  font-weight: 500;
+font-size: 20px;
 }
