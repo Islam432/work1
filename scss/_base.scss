@@ -33,9 +33,9 @@ body {
 }
 .input-nav {
   background: #504b4a;
-  display: flex;
   align-items: center;
   border-radius: 10px;
+  flex-grow: 1;
   padding: 15px 10px 15px 7px;
 }
 .label {
@@ -44,6 +44,7 @@ body {
   align-items: center;
 }
 .input1 {
+  width: 100%;
   font-weight: 700;
   outline: none;
   border: none;
@@ -60,7 +61,6 @@ body {
   cursor: pointer;
   width: 24px;
   height: 24px;
-  margin-left: 300px;
 }
 .nav-call {
   margin-left: 40px;
@@ -172,6 +172,7 @@ body {
   padding: 15px 0px 14px 40px;
 }
 .card {
+  overflow-x: auto;
   display: flex;
   justify-content: center;
   gap: 25px;
